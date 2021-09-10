@@ -1,9 +1,10 @@
+// import ShortUniqueId from 'short-unique-id';
 let allFilters = document.querySelectorAll(".filter div");
 let modalVisible = false;
 let addBtn = document.querySelector(".add");
 let body = document.querySelector("body");
 let grid = document.querySelector(".grid");
-let uid = new ShortUniqueId();
+const uid = new ShortUniqueId();
 let colors = {
   pink: "#d595aa",
   blue: "#5ecdde",

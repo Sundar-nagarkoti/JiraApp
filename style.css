@@ -12,7 +12,7 @@ body {
 
 .navbar {
   background-color: #333333;
-  height: 12%;
+  height: 10%;
   display: flex;
 }
 
@@ -25,9 +25,8 @@ body {
   padding: 1.5rem;
 }
 
-.filter-container,
-.action-container {
-  height: 75%;
+.filter-container, .action-container {
+  height: 68%;
   border-radius: 2px;
   margin-left: 3.5rem;
   background-color: #444444;
@@ -35,16 +34,16 @@ body {
 }
 
 .filter-container {
-  width: 8rem;
+  width: 12rem;
   display: flex;
 }
 .action-container {
   display: flex;
-  width: 4rem;
+  width: 6rem;
 }
 
 .filter {
-  width: 25%;
+  width: 100%;
   height: 100%;
 }
 
@@ -54,7 +53,7 @@ body {
 
 .filter div {
   margin: auto;
-  margin-top: 2.25vh;
+  margin-top: 2.01vh;
   border-radius: 2px;
   height: 50%;
   width: 50%;
@@ -87,11 +86,11 @@ body {
 }
 
 .delete {
-  font-size: 1.3rem;
+  font-size: 2.2rem;
 }
 
 .add {
-  font-size: 1.4rem;
+  font-size: 2.5rem;
   padding-top: 0.1rem;
 }
 
